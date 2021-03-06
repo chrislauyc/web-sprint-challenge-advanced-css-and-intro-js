@@ -347,22 +347,22 @@ The function should console.log 50 chunks of HTML code that match the structure 
 
 ‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
-function getHTML(data){
-    for(let artist of data){
-      return(`
-        <div id="artist">
-        <div class="image">
-            <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg"/>
-        </div>
-        <div class = "name">
-          <a href=${artist.wikipedia}>${artist.name}</a>
-        </div>
-        <div class = "bio">${artist.bio}</div>
-        </div>
-        `
-      )
-    }
-  }
+// function getHTML(data){
+//     for(let artist of data){
+//       return(`
+//         <div id="artist">
+//         <div class="image">
+//             <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg"/>
+//         </div>
+//         <div class = "name">
+//           <a href=${artist.wikipedia}>${artist.name}</a>
+//         </div>
+//         <div class = "bio">${artist.bio}</div>
+//         </div>
+//         `
+//       )
+//     }
+//   }
 
 
 /* 💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪
