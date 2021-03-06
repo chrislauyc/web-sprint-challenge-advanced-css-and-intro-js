@@ -1,0 +1,39 @@
+h1{
+    font-size:3.5rem;
+}
+a{
+    font-size:2rem;
+}
+.artists-container{
+    flex-direction: column;
+}
+.artist{
+    width:100%;
+}
+nav{
+    width:60%;
+}
+
+nav span{
+    border-left:1px solid #626262;
+
+}
+/* title */
+.title-container div{
+    width:100%;
+}
+
+/* artists */
+.artists-container{
+    width:80%;
+}
+.artist{
+    width:100%;
+}
+.artist .bio{
+    font-size:1.3rem;
+}
+.artist img{
+    width:60%;
+    height:100%;
+}
